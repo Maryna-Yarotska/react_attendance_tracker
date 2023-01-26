@@ -1,0 +1,108 @@
+
+    [
+
+        {
+      "id": "1",
+      "groupName": "Rocket group",
+      "children": [
+        {
+          "childId": "1",
+          "name": "Milada Timonova",
+          "parent": {
+            "parentId": "1",
+            "password": "abcf",
+            "contact": {
+              "parentName": "Maryna Yarotska",
+              "email": "milada@gmail.com",
+              "phone": "+491234567"
+            }
+          },
+          "absence": [{ "id": "1", "date": "12.10.2023", "reason": "vacation....." }],
+          "today": true
+        },
+        {
+          "childId": "2",
+          "name": "Ben Seewald",
+          "parent": {
+              "parentId": "2",
+            "password": "bcdf",
+            "contact": {
+              "parentName": "Max Kimonova",
+              "email": "max.iv@gmail.com",
+              "phone": "+491234566"
+            }
+        },
+        "absence": [{ "id": "2", "date": "12.10.2023", "reason": "termin" }],
+          "today": true
+    },
+    {
+        "childId": "3",
+        "name": "Dennis Gelin",
+        "parent": {
+            "parentId": "3",
+            "password": "cdef",
+            "contact": {
+                "parentName": "Faria Simonova",
+                "email": "faria@gmail.com",
+                "phone": "+49123456"
+            }
+          },
+          "absence": [{ "id": "3", "date": "12.10.2023", "reason": "vacation" }],
+          "today": true
+        }
+      ]
+    },
+    
+    {
+        "id": "2",
+        "groupName": "Space group",
+        "children": [
+            {
+          "childId": "4",
+          "name": "Max Json",
+          "parent": {
+              "parentId": "4",
+              "password": "abc",
+            "contact": {
+                "parentName": "Sara Json",
+                "email": "sara.j@gmail.com",
+                "phone": "+491234567"
+            }
+        },
+        "absence": [{ "id": "4", "date": "12.10.2023", "reason": "vacation" }],
+        "today": true
+    },
+    {
+        "childId": "5",
+        "name": " Leanne Graham",
+        "parent": {
+            "parentId": "5",
+            "password": "bcd",
+            "contact": {
+                "parentName": "Max Graham",
+                "email": "graham@gmail.com",
+                "phone": "+491234566"
+            }
+        },
+        "absence": [{ "id": "5", "date": "12.10.2023", "reason": "vacation" }],
+          "today": true
+    },
+    {
+        "childId": "6",
+        "name": "Freeya Gelin",
+        "parent": {
+            "parentId": "6",
+            "password": "cde",
+            "contact": {
+                "parentName": "Danielle Brooks ", 
+                "email": "brooks@gmail.com",
+                "phone": "+491234565"
+            }
+        },
+        "absence": [{ "id": "6", "date": "12.10.2023", "reason": "vacation" }],
+          "today": true
+    }
+   
+]
+}
+]
